@@ -1,6 +1,6 @@
 {
   "name": "karma-jasmine-def",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A Karma plugin. Lazy test subjects for Jasmine inspired by RSpec.",
   "main": "lib/index.js",
   "directories": {
