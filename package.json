@@ -1,0 +1,41 @@
+{
+  "name": "karma-jasmine-def",
+  "version": "0.0.0",
+  "description": "A Karma plugin. Lazy test subjects for Jasmine inspired by RSpec.",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vlazar/karma-jasmine-def.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "jasmine",
+    "def",
+    "subject",
+    "let",
+    "set"
+  ],
+  "author": "Vladislav Zarakovsky <vlad.zar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vlazar/karma-jasmine-def/issues"
+  },
+  "homepage": "https://github.com/vlazar/karma-jasmine-def",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-coverage": "^0.5.3",
+    "karma-jasmine": "^0.3.6"
+  },
+  "dependencies": {
+    "lade": "^0.1.0",
+    "jasmine-def": "^0.1.0"
+  }
+}
